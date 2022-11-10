@@ -5,7 +5,7 @@ import { CartContext } from "../../context/cart.context";
 
 import "./cart-icon.styles.scss";
 
-const CartIcon = ({ onClick }) => {
+const CartIcon = () => {
   const { isCartOpen, setIsCartOpen, cartCount } = useContext(CartContext);
 
   return (
