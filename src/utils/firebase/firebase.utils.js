@@ -15,7 +15,6 @@ import {
   getDoc,
   setDoc,
   collection,
-  WriteBatch,
   writeBatch,
   query,
   getDocs,
